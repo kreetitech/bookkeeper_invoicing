@@ -24,6 +24,7 @@ gem 'jquery-rails'
 
 group :development do
  gem 'annotate', :git => 'git://github.com/jeremyolliver/annotate_models.git', :branch => 'rake_compatibility'
+ gem 'thin'
 end
 
 # To use ActiveModel has_secure_password
